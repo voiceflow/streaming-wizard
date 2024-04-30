@@ -1,0 +1,5230 @@
+{
+  "version": {
+    "name": "Initial Version",
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "645d72103c0ff6475d60535e"
+      }
+    ],
+    "_version": 7.02,
+    "creatorID": 16,
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "Fortune Teller",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "a5uo39mw",
+            "name": "Launch Assistant",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Launch my assistant",
+                "slots": []
+              },
+              {
+                "text": "connect assistant to website",
+                "slots": []
+              },
+              {
+                "text": "launch assistant",
+                "slots": []
+              },
+              {
+                "text": "put assistant on website",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "yvj733rd",
+            "name": "Learn Components",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Learn components",
+                "slots": []
+              },
+              {
+                "text": "What components can I learn?",
+                "slots": []
+              },
+              {
+                "text": "What components do I need to know?",
+                "slots": []
+              },
+              {
+                "text": "Teach me about components",
+                "slots": []
+              },
+              {
+                "text": "Show me components",
+                "slots": []
+              },
+              {
+                "text": "Tell me about components",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "noteID": null
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "645d72103c0ff6475d60535e",
+            "storage": {},
+            "variables": {},
+            "diagramID": "645d72103c0ff6475d60535e"
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "functionDefinitions": {},
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [
+          "a5uo39mw",
+          "yvj733rd"
+        ],
+        "goToIntentsSet": [],
+        "cmsVariables": {
+          "sessions": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "counter": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "sentiment": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "vf_chunks": {
+            "isSystem": true,
+            "defaultValue": null
+          }
+        }
+      },
+      "settings": {
+        "buttons": "stacked"
+      },
+      "platform": "webchat"
+    },
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "counter",
+      "sentiment",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory",
+      "vf_chunks"
+    ],
+    "components": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "645d72103c0ff6475d605360"
+      }
+    ],
+    "manualSave": false,
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "bzga3j4q",
+          "name": "Learn Button",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "how do I add a choice to the canvas",
+              "slots": []
+            },
+            {
+              "text": "how do I use the buttons step",
+              "slots": []
+            },
+            {
+              "text": "buttons step help",
+              "slots": []
+            },
+            {
+              "text": "how to use choice",
+              "slots": []
+            },
+            {
+              "text": "how do I give the user a choice",
+              "slots": []
+            },
+            {
+              "text": "how to use button",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "psac3o99",
+          "name": "Jump Here",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "jump here",
+              "slots": []
+            },
+            {
+              "text": "jump there please",
+              "slots": []
+            },
+            {
+              "text": "jump intent",
+              "slots": []
+            },
+            {
+              "text": "jump there",
+              "slots": []
+            },
+            {
+              "text": "jump",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "582pg3mye",
+          "name": "Learn Intents",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "learn about intents please",
+              "slots": []
+            },
+            {
+              "text": "i want to learn about intents",
+              "slots": []
+            },
+            {
+              "text": "intent learn",
+              "slots": []
+            },
+            {
+              "text": "intents learn",
+              "slots": []
+            },
+            {
+              "text": "learn intents",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "z8cn3985",
+          "name": "Tell me more",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "What else can you tell me?",
+              "slots": []
+            },
+            {
+              "text": "Can you give me more information?",
+              "slots": []
+            },
+            {
+              "text": "Do you have anything else to add?",
+              "slots": []
+            },
+            {
+              "text": "What else do you know?",
+              "slots": []
+            },
+            {
+              "text": "Go on.",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "a5uo39mw",
+          "name": "Launch Assistant",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Launch my assistant",
+              "slots": []
+            },
+            {
+              "text": "connect assistant to website",
+              "slots": []
+            },
+            {
+              "text": "launch assistant",
+              "slots": []
+            },
+            {
+              "text": "put assistant on website",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "wb5tx3em8",
+          "name": "Response AI",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "gpt response",
+              "slots": []
+            },
+            {
+              "text": "new response step",
+              "slots": []
+            },
+            {
+              "text": "response ai",
+              "slots": []
+            },
+            {
+              "text": "response",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "re5xb3etn",
+          "name": "Set AI",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "GPT set",
+              "slots": []
+            },
+            {
+              "text": "set step",
+              "slots": []
+            },
+            {
+              "text": "set ai",
+              "slots": []
+            },
+            {
+              "text": "set",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "yvj733rd",
+          "name": "Learn Components",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Learn components",
+              "slots": []
+            },
+            {
+              "text": "What components can I learn?",
+              "slots": []
+            },
+            {
+              "text": "What components do I need to know?",
+              "slots": []
+            },
+            {
+              "text": "Teach me about components",
+              "slots": []
+            },
+            {
+              "text": "Show me components",
+              "slots": []
+            },
+            {
+              "text": "Tell me about components",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "kvlc336b",
+          "name": "Learn Actions",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Learn Actions",
+              "slots": []
+            },
+            {
+              "text": "What Actions Can I Learn",
+              "slots": []
+            },
+            {
+              "text": "How Do I Learn Actions",
+              "slots": []
+            },
+            {
+              "text": "Teach me about Actions",
+              "slots": []
+            },
+            {
+              "text": "What Can I Do with Actions",
+              "slots": []
+            },
+            {
+              "text": "Show me How to Work with Actions",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "sjcrv374u",
+          "name": "ChatGPT",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "how do i use AI in my assistant",
+              "slots": []
+            },
+            {
+              "text": "how do i use gpt in my assistant",
+              "slots": []
+            },
+            {
+              "text": "How do I use chatgpt in my assistant",
+              "slots": []
+            },
+            {
+              "text": "how do I use AI in my assistant?",
+              "slots": []
+            },
+            {
+              "text": "how do I use GPT in my assistant?",
+              "slots": []
+            },
+            {
+              "text": "How do I use ChatGPT in my assistant?",
+              "slots": []
+            },
+            {
+              "text": "What is the quickest way to incorporate AI in my assistant?",
+              "slots": []
+            },
+            {
+              "text": "What is the best way to use GPT in my assistant?",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "oag9e37z2",
+          "name": "Learn the basics",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Teach me the basics",
+              "slots": []
+            },
+            {
+              "text": "I want to learn the basics",
+              "slots": []
+            },
+            {
+              "text": "learn the basics",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "6579c6bf984565862f64b783",
+          "name": "Yes",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "sure",
+              "slots": []
+            },
+            {
+              "text": "certainly",
+              "slots": []
+            },
+            {
+              "text": "affirmative",
+              "slots": []
+            },
+            {
+              "text": "okay",
+              "slots": []
+            },
+            {
+              "text": "ok",
+              "slots": []
+            },
+            {
+              "text": "ya",
+              "slots": []
+            },
+            {
+              "text": "yep",
+              "slots": []
+            },
+            {
+              "text": "yup",
+              "slots": []
+            },
+            {
+              "text": "yea",
+              "slots": []
+            },
+            {
+              "text": "yes",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "6579c778dd3cca0fe0e0b152",
+          "name": "No",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "negative",
+              "slots": []
+            },
+            {
+              "text": "nevermind",
+              "slots": []
+            },
+            {
+              "text": "not",
+              "slots": []
+            },
+            {
+              "text": "no thanks",
+              "slots": []
+            },
+            {
+              "text": "no way",
+              "slots": []
+            },
+            {
+              "text": "not now",
+              "slots": []
+            },
+            {
+              "text": "nah",
+              "slots": []
+            },
+            {
+              "text": "nay",
+              "slots": []
+            },
+            {
+              "text": "nope",
+              "slots": []
+            },
+            {
+              "text": "no",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {
+        "avatar": "https://cdn.voiceflow.com/assets/logomark.png",
+        "color": "#2E7FF1",
+        "description": "Our virtual assistant is here to help you.",
+        "image": "https://cdn.voiceflow.com/assets/logomark.png",
+        "persistence": "localStorage",
+        "position": "right",
+        "spacing": {
+          "side": 24,
+          "bottom": 24
+        },
+        "title": "Learn Voiceflow - Webchat",
+        "watermark": true
+      },
+      "platform": "webchat"
+    },
+    "canvasTemplates": [
+      {
+        "id": "241hk37ge",
+        "name": "API Call Example",
+        "color": null,
+        "nodeIDs": [
+          "645d80c1f245951e8730bed8",
+          "645d80c1f245951e8730beda",
+          "645d80c1f245951e8730bedc",
+          "645d80c1f245951e8730bede"
+        ]
+      },
+      {
+        "id": "182hc3795",
+        "name": "Basic Conversation Path",
+        "color": null,
+        "nodeIDs": [
+          "645d80e3f245951e8730bfab",
+          "645d80e3f245951e8730bfad",
+          "645d80e3f245951e8730bfaf"
+        ]
+      },
+      {
+        "id": "9d35p376e",
+        "name": "Save Information",
+        "color": "#5b9fd7",
+        "nodeIDs": [
+          "645d810df245951e8730c06f",
+          "645d810df245951e8730c071",
+          "645d810df245951e8730c073",
+          "645d810df245951e8730c075"
+        ]
+      }
+    ],
+    "autoSaveFromRestore": false,
+    "_id": "662814c0e1658f14ae302ba2",
+    "updatedAt": "2024-04-30T19:44:15.570Z",
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "645d72103c0ff6475d60535e",
+          "645d72103c0ff6475d60535d",
+          "645d72103c0ff6475d60535f"
+        ],
+        "rootDiagramID": "645d72103c0ff6475d60535e",
+        "updatedBy": 16,
+        "updatedAt": "2024-04-30T19:43:33.739Z"
+      }
+    ],
+    "projectID": "662814c0e1658f14ae302ba1",
+    "rootDiagramID": "645d72103c0ff6475d60535e",
+    "templateDiagramID": "645d80c1c6751b0007e13832"
+  },
+  "diagrams": {
+    "645d80c1c6751b0007e13832": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {
+        "645d80c123f803000781bab8": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#43494E",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "id": "645d80c123f803000781bab9",
+                  "type": "next",
+                  "target": null
+                }
+              },
+              "dynamic": []
+            },
+            "steps": []
+          },
+          "nodeID": "645d80c123f803000781bab8",
+          "coords": [
+            360,
+            120
+          ]
+        },
+        "645d80c1f245951e8730bed8": {
+          "type": "block",
+          "data": {
+            "name": "Fail",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d80c1f245951e8730bee0"
+            ]
+          },
+          "nodeID": "645d80c1f245951e8730bed8",
+          "coords": [
+            -222.6288141724624,
+            219.371933852732
+          ]
+        },
+        "645d80c1f245951e8730beda": {
+          "type": "block",
+          "data": {
+            "name": "API Call",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d80c1f245951e8730bee3"
+            ]
+          },
+          "nodeID": "645d80c1f245951e8730beda",
+          "coords": [
+            -616.1475219920557,
+            43.92007431671357
+          ]
+        },
+        "645d80c1f245951e8730bedc": {
+          "type": "block",
+          "data": {
+            "name": "Success",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d80c1f245951e8730bee7"
+            ]
+          },
+          "nodeID": "645d80c1f245951e8730bedc",
+          "coords": [
+            -223.7095681864207,
+            45.207734992561996
+          ]
+        },
+        "645d80c1f245951e8730bede": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d80c1f245951e8730beea",
+              "645d80c1f245951e8730beed"
+            ]
+          },
+          "nodeID": "645d80c1f245951e8730bede",
+          "coords": [
+            -1001.0479160760318,
+            38.42594896862681
+          ]
+        },
+        "645d80c1f245951e8730bee0": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "u08yz372g",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Error"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d80c1f245951e8730bee1"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d80c1f245951e8730bee0"
+        },
+        "645d80c1f245951e8730bee3": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://api.openai.com/v1/completions",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "Content-Type",
+                "val": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "val": "Bearer <ADD API KEY HERE>"
+              }
+            ],
+            "content": "{\n  \"model\": \"text-davinci-003\",\n  \"prompt\": \"{last_utterance}\",\n  \"max_tokens\": 7,\n  \"temperature\": 0,\n  \"top_p\": 1,\n  \"n\": 1,\n  \"stream\": false,\n  \"logprobs\": null,\n  \"stop\": \"\\n\"\n}",
+            "mappings": [
+              {
+                "path": "response",
+                "var": "response"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d80c1f245951e8730bee7",
+                  "id": "645d80c1f245951e8730bee5",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -450.14853888468815,
+                          197.66856098360233
+                        ]
+                      },
+                      {
+                        "point": [
+                          -419.9285388846881,
+                          197.66856098360233
+                        ]
+                      },
+                      {
+                        "point": [
+                          -419.9285388846881,
+                          124.70856098360252
+                        ]
+                      },
+                      {
+                        "point": [
+                          -389.7085388846883,
+                          124.70856098360252
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": "645d80c1f245951e8730bee0",
+                  "id": "645d80c1f245951e8730bee4",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -450.14853888468815,
+                          252.16856098360233
+                        ]
+                      },
+                      {
+                        "point": [
+                          -419.38853888468816,
+                          252.16856098360233
+                        ]
+                      },
+                      {
+                        "point": [
+                          -419.38853888468816,
+                          298.8685609836024
+                        ]
+                      },
+                      {
+                        "point": [
+                          -388.62853888468794,
+                          298.8685609836024
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d80c1f245951e8730bee3"
+        },
+        "645d80c1f245951e8730bee7": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "vh8xb37hw",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "response",
+                        "name": "response",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d80c1f245951e8730bee8"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d80c1f245951e8730bee7"
+        },
+        "645d80c1f245951e8730beea": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "xg77r3eyi",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "This flow captures a users question and sends it to the OpenAI API"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d80c1f245951e8730beed",
+                  "id": "645d80c1f245951e8730beeb"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d80c1f245951e8730beea"
+        },
+        "645d80c1f245951e8730beed": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "last_utterance"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d80c1f245951e8730beda",
+                  "id": "645d80c1f245951e8730beee",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -835.0485388846881,
+                          212.42856098360232
+                        ]
+                      },
+                      {
+                        "point": [
+                          -808.0985388846883,
+                          212.42856098360232
+                        ]
+                      },
+                      {
+                        "point": [
+                          -808.0985388846883,
+                          70.91856098360233
+                        ]
+                      },
+                      {
+                        "point": [
+                          -781.1485388846883,
+                          70.91856098360233
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "645d80c1f245951e8730beef"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d80c1f245951e8730beed"
+        },
+        "645d80e3f245951e8730bfab": {
+          "type": "block",
+          "data": {
+            "name": "Start Block",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d80e3f245951e8730bfb1",
+              "645d80e3f245951e8730bfb4"
+            ]
+          },
+          "nodeID": "645d80e3f245951e8730bfab",
+          "coords": [
+            -819.3265429697817,
+            67.92280860959261
+          ]
+        },
+        "645d80e3f245951e8730bfad": {
+          "type": "block",
+          "data": {
+            "name": "Option 2",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d80e3f245951e8730bfb9"
+            ]
+          },
+          "nodeID": "645d80e3f245951e8730bfad",
+          "coords": [
+            -405.86936185538286,
+            272.76782495391024
+          ]
+        },
+        "645d80e3f245951e8730bfaf": {
+          "type": "block",
+          "data": {
+            "name": "Option 1",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d80e3f245951e8730bfbc"
+            ]
+          },
+          "nodeID": "645d80e3f245951e8730bfaf",
+          "coords": [
+            -404.3501872787125,
+            37.526451345597025
+          ]
+        },
+        "645d80e3f245951e8730bfb1": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "929q734a2",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "How can I help you?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d80e3f245951e8730bfb4",
+                  "id": "645d80e3f245951e8730bfb2"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d80e3f245951e8730bfb1"
+        },
+        "645d80e3f245951e8730bfb4": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "xr9vd34tj",
+                "name": "Path 1",
+                "actions": []
+              },
+              {
+                "id": "cl9vs34c7",
+                "name": "Path 2",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "645d80e3f245951e8730bfb5"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "645d80e3f245951e8730bfaf",
+                  "id": "645d80e3f245951e8730bfb6",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -653.3265352328635,
+                          208.1728396647967
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -611.3382426737455,
+                          208.1728396647967
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -611.3382426737455,
+                          64.52657516223951
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -569.3499501146275,
+                          64.52657516223951
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "645d80e3f245951e8730bfad",
+                  "id": "645d80e3f245951e8730bfb7",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -653.3265352328635,
+                          262.67285902304945
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -612.0979465355017,
+                          262.67285902304945
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -612.0979465355017,
+                          299.76805860663205
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -570.8693578381401,
+                          299.76805860663205
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "645d80e3f245951e8730bfb4"
+        },
+        "645d80e3f245951e8730bfb9": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "lu9tb340d",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Second Option"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d80e3f245951e8730bfba"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d80e3f245951e8730bfb9"
+        },
+        "645d80e3f245951e8730bfbc": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "ky9ry343w",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "First Option"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d80e3f245951e8730bfbd"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d80e3f245951e8730bfbc"
+        },
+        "645d810df245951e8730c06f": {
+          "type": "block",
+          "data": {
+            "name": "Other names",
+            "color": "#000000",
+            "steps": [
+              "645d810df245951e8730c077"
+            ]
+          },
+          "nodeID": "645d810df245951e8730c06f",
+          "coords": [
+            -205.57295111575513,
+            235.69244620931897
+          ]
+        },
+        "645d810df245951e8730c071": {
+          "type": "block",
+          "data": {
+            "name": "Use Logic to Route",
+            "color": "#000000",
+            "steps": [
+              "645d810df245951e8730c07a"
+            ]
+          },
+          "nodeID": "645d810df245951e8730c071",
+          "coords": [
+            -606.4933015861607,
+            76.0116960555282
+          ]
+        },
+        "645d810df245951e8730c073": {
+          "type": "block",
+          "data": {
+            "name": "Elon Musk",
+            "color": "#000000",
+            "steps": [
+              "645d810df245951e8730c07e"
+            ]
+          },
+          "nodeID": "645d810df245951e8730c073",
+          "coords": [
+            -206.82295111575513,
+            76.94244620931875
+          ]
+        },
+        "645d810df245951e8730c075": {
+          "type": "block",
+          "data": {
+            "name": "Capture Information",
+            "color": "#000000",
+            "steps": [
+              "645d810df245951e8730c081",
+              "645d810df245951e8730c084"
+            ]
+          },
+          "nodeID": "645d810df245951e8730c075",
+          "coords": [
+            -1018.103779132739,
+            74.60207113242325
+          ]
+        },
+        "645d810df245951e8730c077": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "1jabe34gf",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Hello "
+                      },
+                      {
+                        "id": "name",
+                        "name": "name",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " !"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d810df245951e8730c078"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d810df245951e8730c077"
+        },
+        "645d810df245951e8730c07a": {
+          "type": "ifV2",
+          "data": {
+            "name": "If",
+            "expressions": [
+              {
+                "type": null,
+                "name": "If name is elon musk",
+                "value": [
+                  {
+                    "logicInterface": "variable",
+                    "type": "equals",
+                    "value": [
+                      {
+                        "type": "variable",
+                        "value": "name"
+                      },
+                      {
+                        "type": "value",
+                        "value": "elon musk"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "noMatch": {
+              "type": "path",
+              "pathName": "All other names"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": "645d810df245951e8730c06f",
+                  "id": "645d810df245951e8730c07b",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -440.49316890459295,
+                          210.2616625507901
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -405.533023663163,
+                          210.2616625507901
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -405.533023663163,
+                          262.69243881980606
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -370.57287842173355,
+                          262.69243881980606
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "645d810df245951e8730c073",
+                  "id": "645d810df245951e8730c07c",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -440.49316890459295,
+                          155.76164185389405
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -406.15799298328466,
+                          155.76164185389405
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -406.15799298328466,
+                          103.94229128709912
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -371.8228170619768,
+                          103.94229128709912
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ],
+                    "event": {
+                      "type": "If name is elon musk"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "645d810df245951e8730c07a"
+        },
+        "645d810df245951e8730c07e": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "1jabe34gf",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Twitter is the best 🐦"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d810df245951e8730c07f"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d810df245951e8730c07e"
+        },
+        "645d810df245951e8730c081": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "s8a30349g",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "What is your name?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d810df245951e8730c084",
+                  "id": "645d810df245951e8730c082"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d810df245951e8730c081"
+        },
+        "645d810df245951e8730c084": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "name"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d810df245951e8730c071",
+                  "id": "645d810df245951e8730c085",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -852.1037428795312,
+                          214.85203404699405
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -811.798535755921,
+                          214.85203404699405
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -811.798535755921,
+                          103.01180808305344
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -771.4933286323107,
+                          103.01180808305344
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "645d810df245951e8730c086"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d810df245951e8730c084"
+        }
+      },
+      "offsetX": 272,
+      "offsetY": 204,
+      "modified": 1683849409,
+      "creatorID": 16,
+      "variables": [],
+      "menuItems": [],
+      "_id": "662814c0e1658f14ae302ba9",
+      "diagramID": "645d80c1c6751b0007e13832",
+      "versionID": "662814c0e1658f14ae302ba2"
+    },
+    "645d72103c0ff6475d605360": {
+      "name": "First Component 🦄",
+      "type": "COMPONENT",
+      "zoom": 100,
+      "nodes": {
+        "6303cb8880506fa6a1cfca21": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#2b2f32",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6303cb7780506fa6a1cfca1b",
+                  "id": "6303cb8880506fa6a1cfca22",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          590.2352447509766,
+                          146.99648475646973
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          689.9999389648438,
+                          146.99999237060547
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "steps": []
+          },
+          "nodeID": "6303cb8880506fa6a1cfca21",
+          "coords": [
+            488,
+            125
+          ]
+        },
+        "6303cb7780506fa6a1cfca1b": {
+          "type": "block",
+          "data": {
+            "name": "First block",
+            "color": "",
+            "steps": [
+              "6303cb7780506fa6a1cfca19",
+              "6303ec67d77f5c5fe61d9822"
+            ]
+          },
+          "nodeID": "6303cb7780506fa6a1cfca1b",
+          "coords": [
+            855,
+            120
+          ]
+        },
+        "6303cb7780506fa6a1cfca19": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "e41ao3ogi",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "This is a component!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6303cb7780506fa6a1cfca1a"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6303cb7780506fa6a1cfca19"
+        },
+        "6303ec67d77f5c5fe61d9822": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "ysfd3oxi",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Components are centrally managed across your project. If you modify whats inside, it will update across your project."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6303ec99d77f5c5fe61d9829",
+                  "id": "6303ec67d77f5c5fe61d9823",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1021.0035916084747,
+                          293.94098415169304
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1073.6548384132534,
+                          293.94098415169304
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1073.6548384132534,
+                          141.2867013238166
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1126.306085218032,
+                          141.2867013238166
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6303ec67d77f5c5fe61d9822"
+        },
+        "6303ec99d77f5c5fe61d9827": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "ytg43otg",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Think about a component like a sub-folder. Once it ends, it continues where it left off in the topic you were in before."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6303ec99d77f5c5fe61d9828"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6303ec99d77f5c5fe61d9827"
+        },
+        "6303ec99d77f5c5fe61d9829": {
+          "type": "block",
+          "data": {
+            "name": "Exiting a Component",
+            "steps": [
+              "6303ec99d77f5c5fe61d9827"
+            ],
+            "color": ""
+          },
+          "nodeID": "6303ec99d77f5c5fe61d9829",
+          "coords": [
+            1291.3061010981978,
+            114.2867013238166
+          ]
+        }
+      },
+      "offsetX": 169.60000000000002,
+      "offsetY": 200,
+      "modified": 1683845648,
+      "creatorID": 16,
+      "variables": [],
+      "menuItems": [],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "662814c0e1658f14ae302ba8",
+      "diagramID": "645d72103c0ff6475d605360",
+      "versionID": "662814c0e1658f14ae302ba2"
+    },
+    "645d72103c0ff6475d60535f": {
+      "name": "Launch to Website 💻",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "63cb143e0b17020007cd4ab0": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "color": "",
+            "steps": [
+              "63cb143e0b17020007cd4aaf"
+            ]
+          },
+          "nodeID": "63cb143e0b17020007cd4ab0",
+          "coords": [
+            360,
+            120
+          ]
+        },
+        "63cb143e0b17020007cd4aaf": {
+          "type": "intent",
+          "data": {
+            "intent": "a5uo39mw",
+            "mappings": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "id": "63cb143e0b17020007cd4ab1",
+                  "type": "next",
+                  "target": "63cb148f2ab8b876af9aa046",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          468.43750059570004,
+                          141.99992308084956
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          580.2079646862713,
+                          140.95489092972406
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "availability": "GLOBAL",
+            "name": ""
+          },
+          "nodeID": "63cb143e0b17020007cd4aaf"
+        },
+        "63cb148f2ab8b876af9aa044": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "52v439aq",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Now you're ready to launch your assistant!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63cb148f2ab8b876af9aa045"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb148f2ab8b876af9aa044"
+        },
+        "63cb148f2ab8b876af9aa046": {
+          "type": "block",
+          "data": {
+            "name": "Introduction to launch and handoff",
+            "steps": [
+              "63cb148f2ab8b876af9aa044",
+              "63cb14bb2ab8b876af9aa072",
+              "63cb14df2ab8b876af9aa077"
+            ],
+            "color": "#dc8879"
+          },
+          "nodeID": "63cb148f2ab8b876af9aa046",
+          "coords": [
+            745.2080455933532,
+            113.95491343752659
+          ]
+        },
+        "63cb14bb2ab8b876af9aa072": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "v7xs39g6",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "With Voiceflow you can either launch your assistant directly to a website, or "
+                      },
+                      {
+                        "text": "use our",
+                        "fontWeight": "700"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "text": "APIs ",
+                        "fontWeight": "700"
+                      },
+                      {
+                        "text": "to launch to any platform."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63cb14bb2ab8b876af9aa073"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb14bb2ab8b876af9aa072"
+        },
+        "63cb14df2ab8b876af9aa077": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "60yz39dj",
+                "name": "Launch to a Website",
+                "actions": []
+              },
+              {
+                "id": "gtze39iy",
+                "name": "Use our APIs",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63cb14df2ab8b876af9aa079"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "63cb15012ab8b876af9aa081",
+                  "id": "63cb14df2ab8b876af9aa078",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          911.2079696243682,
+                          382.2048540997517
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          967.5139443923392,
+                          382.2048540997517
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          967.5139443923392,
+                          26.874780184672243
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1023.8199191603104,
+                          26.874780184672243
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "63cb14e52ab8b876af9aa07c",
+                  "type": "",
+                  "target": "63cb163b2ab8b876af9aa0ba",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          911.21,
+                          459.2
+                        ]
+                      },
+                      {
+                        "point": [
+                          968.07,
+                          459.2
+                        ]
+                      },
+                      {
+                        "point": [
+                          968.07,
+                          576.22
+                        ]
+                      },
+                      {
+                        "point": [
+                          1024.94,
+                          576.22
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "63cb14df2ab8b876af9aa077",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63cb15012ab8b876af9aa07f": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "xw10439yi",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "To launch to a website - check out our documentation "
+                      },
+                      {
+                        "url": "https://voiceflow.zendesk.com/hc/en-us/articles/10569376208781",
+                        "type": "link",
+                        "children": [
+                          {
+                            "text": "here.",
+                            "color": {
+                              "r": 93,
+                              "g": 157,
+                              "b": 245,
+                              "a": 1
+                            },
+                            "underline": true
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63cb15012ab8b876af9aa080"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb15012ab8b876af9aa07f"
+        },
+        "63cb15012ab8b876af9aa081": {
+          "type": "block",
+          "data": {
+            "name": "Launch to a Website",
+            "steps": [
+              "63cb15012ab8b876af9aa07f",
+              "63cb15412ab8b876af9aa09c",
+              "63cb17c52ab8b876af9aa0e7",
+              "645d7fa0f245951e8730bd46"
+            ],
+            "color": "#56b365"
+          },
+          "nodeID": "63cb15012ab8b876af9aa081",
+          "coords": [
+            1188.8200447172512,
+            -0.12533343499016647
+          ]
+        },
+        "63cb15412ab8b876af9aa09c": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "o814n3900",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Customize your assistant my clicking on the 'integrations' tab on the left side menu"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63cb15412ab8b876af9aa09d"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb15412ab8b876af9aa09c"
+        },
+        "63cb163b2ab8b876af9aa0ba": {
+          "type": "block",
+          "data": {
+            "name": "Use our APIs",
+            "color": "#56b365",
+            "steps": [
+              "63cb163b2ab8b876af9aa0bc",
+              "645d7fdff245951e8730bd50",
+              "645d7ff8f245951e8730bd55"
+            ]
+          },
+          "nodeID": "63cb163b2ab8b876af9aa0ba",
+          "coords": [
+            1189.941480018271,
+            549.2178589702871
+          ]
+        },
+        "63cb163b2ab8b876af9aa0bc": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "xw10439yi",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Our dialog manager API lets you embed your assistant into any interface."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63cb163b2ab8b876af9aa0bd"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb163b2ab8b876af9aa0bc"
+        },
+        "63cb17c52ab8b876af9aa0e7": {
+          "type": "visual",
+          "data": {
+            "name": "Visuals",
+            "image": "https://cm4-production-assets.s3.amazonaws.com/1674254364704-ezgif.com-gif-maker-3.gif",
+            "visualType": "image",
+            "canvasVisibility": "full",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63cb17c52ab8b876af9aa0e8",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            },
+            "frameType": "AUTO",
+            "dimensions": {
+              "width": 600,
+              "height": 299
+            }
+          },
+          "nodeID": "63cb17c52ab8b876af9aa0e7"
+        },
+        "63cb22003b66076802d613f0": {
+          "type": "markup_video",
+          "data": {
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1674256895093-my-movie-6.mp4",
+            "width": 466.75209077858443,
+            "height": 262.54805106295373,
+            "rotate": 0,
+            "name": ""
+          },
+          "nodeID": "63cb22003b66076802d613f0",
+          "coords": [
+            477.9212950879681,
+            -154.0017582018451
+          ]
+        },
+        "63cb22133b66076802d61464": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1.8224377991821479,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "left",
+                "children": [
+                  {
+                    "text": "Tutorial video",
+                    "fontWeight": "700"
+                  },
+                  {
+                    "text": " 👇"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 196.57434760136266
+          },
+          "nodeID": "63cb22133b66076802d61464",
+          "coords": [
+            307.851230662271,
+            -356.3978323875644
+          ]
+        },
+        "63cb22213b66076802d614a2": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 0.6541892871130203,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "left",
+                "children": [
+                  {
+                    "text": "You can find our documentation "
+                  },
+                  {
+                    "url": "https://voiceflow.zendesk.com/hc/en-us/articles/10569376208781-Voiceflow-Webchat-Beta-",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "here",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", templates "
+                  },
+                  {
+                    "url": "https://www.voiceflow.com/templates",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "here",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", or by opening the assistant on the bottom right of your screen"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 543.7100522627853
+          },
+          "nodeID": "63cb22213b66076802d614a2",
+          "coords": [
+            140.04253009781124,
+            -7.618964547705837
+          ]
+        },
+        "645d7fa0f245951e8730bd46": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d7fa0f245951e8730bd46"
+        },
+        "645d7fdff245951e8730bd50": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "ambq37dq",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Check out our developer documentation "
+                      },
+                      {
+                        "url": "https://developer.voiceflow.com/",
+                        "type": "link",
+                        "children": [
+                          {
+                            "text": "here",
+                            "color": {
+                              "r": 93,
+                              "g": 157,
+                              "b": 245,
+                              "a": 1
+                            },
+                            "underline": true
+                          }
+                        ]
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d7fdff245951e8730bd51"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d7fdff245951e8730bd50"
+        },
+        "645d7ff8f245951e8730bd55": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d7ff8f245951e8730bd55"
+        }
+      },
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1683845648,
+      "creatorID": 16,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "63cb143e0b17020007cd4aaf"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [
+        "63cb143e0b17020007cd4aaf"
+      ],
+      "_id": "662814c0e1658f14ae302ba6",
+      "diagramID": "645d72103c0ff6475d60535f",
+      "versionID": "662814c0e1658f14ae302ba2"
+    },
+    "645d72103c0ff6475d60535e": {
+      "name": "Start Here 🚀",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "662814d42f445f3c0ae8979e",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          400.19,
+                          290.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          437.44,
+                          290.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          437.44,
+                          334.59
+                        ]
+                      },
+                      {
+                        "point": [
+                          474.68,
+                          334.59
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            335.55313318213166,
+            268.3102031509532
+          ]
+        },
+        "662814d42f445f3c0ae8979b": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "mode": "prompt",
+            "prompt": "You are a magical all knowing wizard. Look into your crystal ball and answer the questions you are posed. Answer in a mysterious and mystical manner, but remain brief.\n\nYour question:\n{{[last_utterance].last_utterance}}",
+            "system": "",
+            "maxTokens": 307,
+            "model": "gpt-4-turbo",
+            "temperature": 0.7,
+            "notFoundPath": true,
+            "overrideParams": false,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "662814dd2f445f3c0ae897a7",
+                  "id": "662814d42f445f3c0ae8979c",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          805.68,
+                          475.59
+                        ]
+                      },
+                      {
+                        "point": [
+                          975.94,
+                          475.59
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          975.94,
+                          154.89810148560625
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          928.4423539578147,
+                          154.89810148560625
+                        ],
+                        "reversed": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "662814d42f445f3c0ae8979d"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "662814d42f445f3c0ae8979b"
+        },
+        "662814d42f445f3c0ae8979e": {
+          "type": "block",
+          "data": {
+            "name": "New Block 1",
+            "steps": [
+              "662814d42f445f3c0ae8979b"
+            ]
+          },
+          "nodeID": "662814d42f445f3c0ae8979e",
+          "coords": [
+            639.6802206186765,
+            307.586725816615
+          ]
+        },
+        "662814dd2f445f3c0ae897a4": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "last_utterance"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "662814d42f445f3c0ae8979e",
+                  "id": "662814dd2f445f3c0ae897a5",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          597.44,
+                          215.9
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          567.19,
+                          215.9
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          567.19,
+                          283.59
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          639.68,
+                          283.59
+                        ]
+                      },
+                      {
+                        "point": [
+                          639.68,
+                          307.59
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "662814dd2f445f3c0ae897a6"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "662814dd2f445f3c0ae897a4",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "662814dd2f445f3c0ae897a7": {
+          "type": "block",
+          "data": {
+            "name": "New Block 2",
+            "steps": [
+              "662814dd2f445f3c0ae897a4"
+            ]
+          },
+          "nodeID": "662814dd2f445f3c0ae897a7",
+          "coords": [
+            763.4425065457053,
+            127.89816252076253
+          ]
+        }
+      },
+      "offsetX": 291.5574934542947,
+      "offsetY": 85.35183747923742,
+      "modified": 1683845648,
+      "creatorID": 16,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "662814c0e1658f14ae302ba3",
+      "diagramID": "645d72103c0ff6475d60535e",
+      "versionID": "662814c0e1658f14ae302ba2"
+    },
+    "645d72103c0ff6475d60535d": {
+      "name": "Project Structure 🦄",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "63cb00db9188a24b267e3f2a": {
+          "type": "block",
+          "data": {
+            "name": "Customizing Components",
+            "color": "#5b9fd7",
+            "steps": [
+              "63cb00db9188a24b267e3f36",
+              "63cb00db9188a24b267e3f39"
+            ]
+          },
+          "nodeID": "63cb00db9188a24b267e3f2a",
+          "coords": [
+            1394.6842606540367,
+            -28.54648913976746
+          ]
+        },
+        "63cb00db9188a24b267e3f2c": {
+          "type": "block",
+          "data": {
+            "name": "I am a Component!",
+            "color": "#5b9fd7",
+            "steps": [
+              "63cb00db9188a24b267e3f3c"
+            ]
+          },
+          "nodeID": "63cb00db9188a24b267e3f2c",
+          "coords": [
+            1391.241462936362,
+            245.3942286965222
+          ]
+        },
+        "63cb00db9188a24b267e3f2e": {
+          "type": "block",
+          "data": {
+            "name": "What happens next?",
+            "color": "",
+            "steps": [
+              "63cb00db9188a24b267e3f3f",
+              "63cb00db9188a24b267e3f42",
+              "64382b110909f39ed27e1b1e"
+            ]
+          },
+          "nodeID": "63cb00db9188a24b267e3f2e",
+          "coords": [
+            1908.4654670592454,
+            -26.06432137131543
+          ]
+        },
+        "63cb00db9188a24b267e3f30": {
+          "type": "block",
+          "data": {
+            "name": "Creating a Component",
+            "color": "#56b365",
+            "steps": [
+              "63cb00db9188a24b267e3f48",
+              "63cb00db9188a24b267e3f4b"
+            ]
+          },
+          "nodeID": "63cb00db9188a24b267e3f30",
+          "coords": [
+            864.9139638805158,
+            -29.14120629790642
+          ]
+        },
+        "63cb00db9188a24b267e3f32": {
+          "type": "block",
+          "data": {
+            "name": "How Components Work",
+            "color": "#dc8879",
+            "steps": [
+              "63cb00db9188a24b267e3f4e"
+            ]
+          },
+          "nodeID": "63cb00db9188a24b267e3f32",
+          "coords": [
+            384.61591322873437,
+            -27.95007919979554
+          ]
+        },
+        "63cb00db9188a24b267e3f34": {
+          "type": "block",
+          "data": {
+            "name": "Learn Components",
+            "color": "",
+            "steps": [
+              "63cb00db9188a24b267e3f54"
+            ]
+          },
+          "nodeID": "63cb00db9188a24b267e3f34",
+          "coords": [
+            23.534563458332514,
+            -22.199537503892373
+          ]
+        },
+        "63cb00db9188a24b267e3f36": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "sjc23oa0",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Once you've created a component, you can rename it on the left navigation bar."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63cb00db9188a24b267e3f39",
+                  "id": "63cb00db9188a24b267e3f37",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1611.750619497276,
+                          70.58103844162608
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1635.750619497276,
+                          70.58103844162608
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1635.750619497276,
+                          160.0949160718598
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1456.9970937633282,
+                          160.0949160718598
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1456.9970937633282,
+                          249.60879370209358
+                        ],
+                        "toTop": true,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f36"
+        },
+        "63cb00db9188a24b267e3f39": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "etd43ouk",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Here's an example:"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63cb00db9188a24b267e3f2c",
+                  "id": "63cb00db9188a24b267e3f3a",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1228.684109142016,
+                          156.70381000938295
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": true,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1204.684109142016,
+                          156.70381000938295
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1204.684109142016,
+                          219.95385993163003
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1391.2410983352254,
+                          219.95385993163003
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1391.2410983352254,
+                          245.39433767574195
+                        ],
+                        "toTop": true,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f39"
+        },
+        "63cb00db9188a24b267e3f3c": {
+          "type": "component",
+          "data": {
+            "name": "Component",
+            "diagramID": "645d72103c0ff6475d605360",
+            "variableMap": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63cb00db9188a24b267e3f2e",
+                  "id": "63cb00db9188a24b267e3f3d",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1557.24,
+                          325.14
+                        ]
+                      },
+                      {
+                        "point": [
+                          1650.35,
+                          325.14
+                        ]
+                      },
+                      {
+                        "point": [
+                          1650.35,
+                          0.94
+                        ]
+                      },
+                      {
+                        "point": [
+                          1743.47,
+                          0.94
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f3c",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63cb00db9188a24b267e3f3f": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "xri13o9t",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Now we're back on the main level!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63cb00db9188a24b267e3f42",
+                  "id": "63cb00db9188a24b267e3f40"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f3f"
+        },
+        "63cb00db9188a24b267e3f42": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "obj33oee",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Once a component ends, you return to the previous level and continue onwards in your flow."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63cb00db9188a24b267e3f43"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f42"
+        },
+        "63cb00db9188a24b267e3f48": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "6h9z3oka",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "To create a component, select the blocks that you want to reuse by holding the "
+                      },
+                      {
+                        "text": "shift",
+                        "italic": true
+                      },
+                      {
+                        "text": " key as you drag your mouse."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63cb00db9188a24b267e3f4b",
+                  "id": "63cb00db9188a24b267e3f49"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f48"
+        },
+        "63cb00db9188a24b267e3f4b": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "zlat3osu",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Then on the top navigation bar, press the 'component' icon to create a component!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63cb00db9188a24b267e3f2a",
+                  "id": "63cb00db9188a24b267e3f4c",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1030.9135722302142,
+                          201.10898053906192
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1130.2987369107354,
+                          201.10898053906192
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1130.2987369107354,
+                          -1.546249346989562
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1229.6839015912567,
+                          -1.546249346989562
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f4b"
+        },
+        "63cb00db9188a24b267e3f4e": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "suo23oul",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Components allow you to create a "
+                      },
+                      {
+                        "text": "reusable set of steps",
+                        "fontWeight": "700"
+                      },
+                      {
+                        "text": " that you can use anywhere in your project!"
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "They act like subfolders in your project."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63cb00db9188a24b267e3f30",
+                  "id": "63cb00db9188a24b267e3f4f",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          550.6156425490404,
+                          108.04998109095825
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          625.2646875796935,
+                          108.04998109095825
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          625.2646875796935,
+                          -2.1409137201155133
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          699.9137326103465,
+                          -2.1409137201155133
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f4e"
+        },
+        "63cb00db9188a24b267e3f54": {
+          "type": "intent",
+          "data": {
+            "name": "",
+            "intent": "yvj733rd",
+            "mappings": [],
+            "availability": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63cb00db9188a24b267e3f32",
+                  "id": "63cb00db9188a24b267e3f53",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          139.42510780708741,
+                          -0.19937542306949751
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          219.61564569374897,
+                          -0.9500126196247827
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f54"
+        },
+        "63cb00db9188a24b267e3f55": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Click the pencil icon 📝 above to enter the component!"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 351.95817656435906,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            }
+          },
+          "nodeID": "63cb00db9188a24b267e3f55",
+          "coords": [
+            1222.4363679811793,
+            397.7031038856677
+          ]
+        },
+        "63cb00db9188a24b267e3f56": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1.2798761355141475,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Creating a Component",
+                    "fontWeight": "700"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 278.49373893528224
+          },
+          "nodeID": "63cb00db9188a24b267e3f56",
+          "coords": [
+            703.4129720792033,
+            -87.82650975373866
+          ]
+        },
+        "63cb00db9188a24b267e3f57": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1.2798761355141475,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Customizing Components",
+                    "fontWeight": "700"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 278.49373893528224
+          },
+          "nodeID": "63cb00db9188a24b267e3f57",
+          "coords": [
+            1251.9722831424872,
+            -90.37938842286661
+          ]
+        },
+        "63cb00db9188a24b267e3f58": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1.2798761355141475,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "How Components Work",
+                    "fontWeight": "700"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 278.49373893528224
+          },
+          "nodeID": "63cb00db9188a24b267e3f58",
+          "coords": [
+            233.74865956356928,
+            -89.08262513133201
+          ]
+        },
+        "63cb11fd2ab8b876af9a9f4c": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1.939035227420583,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "left",
+                "children": [
+                  {
+                    "text": "Learn more about project structure here 👉 ",
+                    "fontWeight": "700"
+                  },
+                  {
+                    "url": "https://learn.voiceflow.com/hc/en-us/articles/12819438689293-Introduction-to-Project-Organization",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "Structuring your assistant",
+                        "fontWeight": "400",
+                        "italic": true,
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 335.5431552128467
+          },
+          "nodeID": "63cb11fd2ab8b876af9a9f4c",
+          "coords": [
+            62.10237516851379,
+            -452.88431514959365
+          ]
+        },
+        "64382b110909f39ed27e1b1e": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "gr3fj349n",
+                "name": "Launch to Website",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64382b110909f39ed27e1b20"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "645d7f2d83103cca7a3cf968",
+                  "id": "64382b110909f39ed27e1b1f",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "64382b110909f39ed27e1b1e",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "645d7d1283103cca7a3cf697": {
+          "type": "markup_video",
+          "data": {
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1683848465630-introduction-to-project-organization-on-voiceflow.mp4",
+            "width": 576.7235936088108,
+            "height": 360.45224600550677,
+            "rotate": 0,
+            "name": "Block"
+          },
+          "nodeID": "645d7d1283103cca7a3cf697",
+          "coords": [
+            892.3925512621255,
+            -425.18413021052055
+          ]
+        },
+        "645d7f2d83103cca7a3cf967": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "a5uo39mw",
+            "diagramID": "645d72103c0ff6475d60535f",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d7f2d83103cca7a3cf967"
+        },
+        "645d7f2d83103cca7a3cf968": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "645d7f2d83103cca7a3cf967"
+            ]
+          },
+          "nodeID": "645d7f2d83103cca7a3cf968",
+          "coords": [
+            0,
+            0
+          ]
+        }
+      },
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1683845648,
+      "creatorID": 16,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "63cb00db9188a24b267e3f54"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [
+        "63cb00d20b17020007cd4a81"
+      ],
+      "_id": "662814c0e1658f14ae302ba5",
+      "diagramID": "645d72103c0ff6475d60535d",
+      "versionID": "662814c0e1658f14ae302ba2"
+    }
+  },
+  "flows": [
+    {
+      "id": "662814c23f3e6e0007b91760",
+      "name": "First Component 🦄",
+      "createdByID": 16,
+      "folderID": null,
+      "diagramID": "645d72103c0ff6475d605360",
+      "description": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    }
+  ],
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "bzga3j4q",
+      "name": "Learn Button",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "psac3o99",
+      "name": "Jump Here",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "582pg3mye",
+      "name": "Learn Intents",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "z8cn3985",
+      "name": "Tell me more",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "a5uo39mw",
+      "name": "Launch Assistant",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "wb5tx3em8",
+      "name": "Response AI",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "re5xb3etn",
+      "name": "Set AI",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "yvj733rd",
+      "name": "Learn Components",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "kvlc336b",
+      "name": "Learn Actions",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "sjcrv374u",
+      "name": "ChatGPT",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "oag9e37z2",
+      "name": "Learn the basics",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "6579c6bf984565862f64b783",
+      "name": "Yes",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "6579c778dd3cca0fe0e0b152",
+      "name": "No",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 16,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    }
+  ],
+  "utterances": [
+    {
+      "id": "662814c23f3e6e0007b91714",
+      "text": [
+        {
+          "text": [
+            "how do I add a choice to the canvas"
+          ]
+        }
+      ],
+      "intentID": "bzga3j4q",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91715",
+      "text": [
+        {
+          "text": [
+            "how do I use the buttons step"
+          ]
+        }
+      ],
+      "intentID": "bzga3j4q",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91716",
+      "text": [
+        {
+          "text": [
+            "buttons step help"
+          ]
+        }
+      ],
+      "intentID": "bzga3j4q",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91717",
+      "text": [
+        {
+          "text": [
+            "how to use choice"
+          ]
+        }
+      ],
+      "intentID": "bzga3j4q",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91718",
+      "text": [
+        {
+          "text": [
+            "how do I give the user a choice"
+          ]
+        }
+      ],
+      "intentID": "bzga3j4q",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91719",
+      "text": [
+        {
+          "text": [
+            "how to use button"
+          ]
+        }
+      ],
+      "intentID": "bzga3j4q",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9171a",
+      "text": [
+        {
+          "text": [
+            "jump here"
+          ]
+        }
+      ],
+      "intentID": "psac3o99",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9171b",
+      "text": [
+        {
+          "text": [
+            "jump there please"
+          ]
+        }
+      ],
+      "intentID": "psac3o99",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9171c",
+      "text": [
+        {
+          "text": [
+            "jump intent"
+          ]
+        }
+      ],
+      "intentID": "psac3o99",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9171d",
+      "text": [
+        {
+          "text": [
+            "jump there"
+          ]
+        }
+      ],
+      "intentID": "psac3o99",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9171e",
+      "text": [
+        {
+          "text": [
+            "jump"
+          ]
+        }
+      ],
+      "intentID": "psac3o99",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9171f",
+      "text": [
+        {
+          "text": [
+            "learn about intents please"
+          ]
+        }
+      ],
+      "intentID": "582pg3mye",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91720",
+      "text": [
+        {
+          "text": [
+            "i want to learn about intents"
+          ]
+        }
+      ],
+      "intentID": "582pg3mye",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91721",
+      "text": [
+        {
+          "text": [
+            "intent learn"
+          ]
+        }
+      ],
+      "intentID": "582pg3mye",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91722",
+      "text": [
+        {
+          "text": [
+            "intents learn"
+          ]
+        }
+      ],
+      "intentID": "582pg3mye",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91723",
+      "text": [
+        {
+          "text": [
+            "learn intents"
+          ]
+        }
+      ],
+      "intentID": "582pg3mye",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91724",
+      "text": [
+        {
+          "text": [
+            "What else can you tell me?"
+          ]
+        }
+      ],
+      "intentID": "z8cn3985",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91725",
+      "text": [
+        {
+          "text": [
+            "Can you give me more information?"
+          ]
+        }
+      ],
+      "intentID": "z8cn3985",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91726",
+      "text": [
+        {
+          "text": [
+            "Do you have anything else to add?"
+          ]
+        }
+      ],
+      "intentID": "z8cn3985",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91727",
+      "text": [
+        {
+          "text": [
+            "What else do you know?"
+          ]
+        }
+      ],
+      "intentID": "z8cn3985",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91728",
+      "text": [
+        {
+          "text": [
+            "Go on."
+          ]
+        }
+      ],
+      "intentID": "z8cn3985",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91729",
+      "text": [
+        {
+          "text": [
+            "Launch my assistant"
+          ]
+        }
+      ],
+      "intentID": "a5uo39mw",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9172a",
+      "text": [
+        {
+          "text": [
+            "connect assistant to website"
+          ]
+        }
+      ],
+      "intentID": "a5uo39mw",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9172b",
+      "text": [
+        {
+          "text": [
+            "launch assistant"
+          ]
+        }
+      ],
+      "intentID": "a5uo39mw",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9172c",
+      "text": [
+        {
+          "text": [
+            "put assistant on website"
+          ]
+        }
+      ],
+      "intentID": "a5uo39mw",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9172d",
+      "text": [
+        {
+          "text": [
+            "gpt response"
+          ]
+        }
+      ],
+      "intentID": "wb5tx3em8",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9172e",
+      "text": [
+        {
+          "text": [
+            "new response step"
+          ]
+        }
+      ],
+      "intentID": "wb5tx3em8",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9172f",
+      "text": [
+        {
+          "text": [
+            "response ai"
+          ]
+        }
+      ],
+      "intentID": "wb5tx3em8",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91730",
+      "text": [
+        {
+          "text": [
+            "response"
+          ]
+        }
+      ],
+      "intentID": "wb5tx3em8",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91731",
+      "text": [
+        {
+          "text": [
+            "GPT set"
+          ]
+        }
+      ],
+      "intentID": "re5xb3etn",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91732",
+      "text": [
+        {
+          "text": [
+            "set step"
+          ]
+        }
+      ],
+      "intentID": "re5xb3etn",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91733",
+      "text": [
+        {
+          "text": [
+            "set ai"
+          ]
+        }
+      ],
+      "intentID": "re5xb3etn",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91734",
+      "text": [
+        {
+          "text": [
+            "set"
+          ]
+        }
+      ],
+      "intentID": "re5xb3etn",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91735",
+      "text": [
+        {
+          "text": [
+            "Learn components"
+          ]
+        }
+      ],
+      "intentID": "yvj733rd",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91736",
+      "text": [
+        {
+          "text": [
+            "What components can I learn?"
+          ]
+        }
+      ],
+      "intentID": "yvj733rd",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91737",
+      "text": [
+        {
+          "text": [
+            "What components do I need to know?"
+          ]
+        }
+      ],
+      "intentID": "yvj733rd",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91738",
+      "text": [
+        {
+          "text": [
+            "Teach me about components"
+          ]
+        }
+      ],
+      "intentID": "yvj733rd",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91739",
+      "text": [
+        {
+          "text": [
+            "Show me components"
+          ]
+        }
+      ],
+      "intentID": "yvj733rd",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9173a",
+      "text": [
+        {
+          "text": [
+            "Tell me about components"
+          ]
+        }
+      ],
+      "intentID": "yvj733rd",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9173b",
+      "text": [
+        {
+          "text": [
+            "Learn Actions"
+          ]
+        }
+      ],
+      "intentID": "kvlc336b",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9173c",
+      "text": [
+        {
+          "text": [
+            "What Actions Can I Learn"
+          ]
+        }
+      ],
+      "intentID": "kvlc336b",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9173d",
+      "text": [
+        {
+          "text": [
+            "How Do I Learn Actions"
+          ]
+        }
+      ],
+      "intentID": "kvlc336b",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9173e",
+      "text": [
+        {
+          "text": [
+            "Teach me about Actions"
+          ]
+        }
+      ],
+      "intentID": "kvlc336b",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9173f",
+      "text": [
+        {
+          "text": [
+            "What Can I Do with Actions"
+          ]
+        }
+      ],
+      "intentID": "kvlc336b",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91740",
+      "text": [
+        {
+          "text": [
+            "Show me How to Work with Actions"
+          ]
+        }
+      ],
+      "intentID": "kvlc336b",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91741",
+      "text": [
+        {
+          "text": [
+            "how do i use AI in my assistant"
+          ]
+        }
+      ],
+      "intentID": "sjcrv374u",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91742",
+      "text": [
+        {
+          "text": [
+            "how do i use gpt in my assistant"
+          ]
+        }
+      ],
+      "intentID": "sjcrv374u",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91743",
+      "text": [
+        {
+          "text": [
+            "How do I use chatgpt in my assistant"
+          ]
+        }
+      ],
+      "intentID": "sjcrv374u",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91744",
+      "text": [
+        {
+          "text": [
+            "how do I use AI in my assistant?"
+          ]
+        }
+      ],
+      "intentID": "sjcrv374u",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91745",
+      "text": [
+        {
+          "text": [
+            "how do I use GPT in my assistant?"
+          ]
+        }
+      ],
+      "intentID": "sjcrv374u",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91746",
+      "text": [
+        {
+          "text": [
+            "How do I use ChatGPT in my assistant?"
+          ]
+        }
+      ],
+      "intentID": "sjcrv374u",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91747",
+      "text": [
+        {
+          "text": [
+            "What is the quickest way to incorporate AI in my assistant?"
+          ]
+        }
+      ],
+      "intentID": "sjcrv374u",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91748",
+      "text": [
+        {
+          "text": [
+            "What is the best way to use GPT in my assistant?"
+          ]
+        }
+      ],
+      "intentID": "sjcrv374u",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91749",
+      "text": [
+        {
+          "text": [
+            "Teach me the basics"
+          ]
+        }
+      ],
+      "intentID": "oag9e37z2",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9174a",
+      "text": [
+        {
+          "text": [
+            "I want to learn the basics"
+          ]
+        }
+      ],
+      "intentID": "oag9e37z2",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9174b",
+      "text": [
+        {
+          "text": [
+            "learn the basics"
+          ]
+        }
+      ],
+      "intentID": "oag9e37z2",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9174c",
+      "text": [
+        {
+          "text": [
+            "sure"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9174d",
+      "text": [
+        {
+          "text": [
+            "certainly"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9174e",
+      "text": [
+        {
+          "text": [
+            "affirmative"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9174f",
+      "text": [
+        {
+          "text": [
+            "okay"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91750",
+      "text": [
+        {
+          "text": [
+            "ok"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91751",
+      "text": [
+        {
+          "text": [
+            "ya"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91752",
+      "text": [
+        {
+          "text": [
+            "yep"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91753",
+      "text": [
+        {
+          "text": [
+            "yup"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91754",
+      "text": [
+        {
+          "text": [
+            "yea"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91755",
+      "text": [
+        {
+          "text": [
+            "yes"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91756",
+      "text": [
+        {
+          "text": [
+            "negative"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91757",
+      "text": [
+        {
+          "text": [
+            "nevermind"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91758",
+      "text": [
+        {
+          "text": [
+            "not"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b91759",
+      "text": [
+        {
+          "text": [
+            "no thanks"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9175a",
+      "text": [
+        {
+          "text": [
+            "no way"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9175b",
+      "text": [
+        {
+          "text": [
+            "not now"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9175c",
+      "text": [
+        {
+          "text": [
+            "nah"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9175d",
+      "text": [
+        {
+          "text": [
+            "nay"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9175e",
+      "text": [
+        {
+          "text": [
+            "nope"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    },
+    {
+      "id": "662814c23f3e6e0007b9175f",
+      "text": [
+        {
+          "text": [
+            "no"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-04-23T20:06:27.000Z"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [],
+  "responseVariants": [],
+  "responseAttachments": [],
+  "responseDiscriminators": [],
+  "variables": [
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "counter",
+      "name": "counter",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "sentiment",
+      "name": "sentiment",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    },
+    {
+      "id": "vf_chunks",
+      "name": "vf_chunks",
+      "createdByID": 16,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": true,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "Dynamically stores the last chunks retrieved from the Knowledge Base whenever calling the KB from the canvas.",
+      "defaultValue": null,
+      "createdAt": "2024-04-23T20:06:27.000Z",
+      "updatedAt": "2024-04-23T20:06:27.000Z",
+      "updatedByID": 16
+    }
+  ],
+  "workflows": [],
+  "attachments": [],
+  "cardButtons": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "project": {
+    "type": "chat",
+    "name": "Fortune Teller",
+    "image": "https://dev-voiceflow-images.s3.amazonaws.com/1714506247876-screenshot-2024-04-30-at-1.43.51-pm.png",
+    "teamID": "g4DjZzjmbr",
+    "members": [],
+    "privacy": "private",
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 16,
+    "apiPrivacy": "private",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "updatedBy": 16,
+    "_id": "662814c0e1658f14ae302ba1",
+    "updatedAt": "2024-04-30T19:44:08.323Z",
+    "knowledgeBase": {
+      "settings": {
+        "chunkStrategy": {
+          "type": "recursive_text_splitter",
+          "size": 1200,
+          "overlap": 200
+        },
+        "search": {
+          "limit": 3,
+          "metric": "IP"
+        },
+        "summarization": {
+          "prompt": "",
+          "mode": "prompt",
+          "model": "gpt-3.5-turbo",
+          "temperature": 0.1,
+          "system": "You are an FAQ AI chat assistant. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences."
+        }
+      }
+    },
+    "devVersion": "662814c0e1658f14ae302ba2"
+  },
+  "_version": "1.2",
+  "variableStates": []
+}

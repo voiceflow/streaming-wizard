@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 100vw;
+}
+
+.Header {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.SubHeader {
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+}
+
+.Spacer {
+  height: 10px;
+  width: 1px;
+}
