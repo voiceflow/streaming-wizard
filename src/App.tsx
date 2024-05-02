@@ -6,7 +6,7 @@ import { TextCompletion } from './components/TextCompletion';
 import { Query } from './components/Query';
 
 const App: Component = () => {
-  const url = `https://general-runtime-review-streaming.us.development.voiceflow.com/v2beta1/interact/${import.meta.env.VITE_PROJECT_ID}/${import.meta.env.VITE_VERSION_ID}/stream`;
+  const url = `https://general-runtime.voiceflow.com/v2beta1/interact/${import.meta.env.VITE_PROJECT_ID}/${import.meta.env.VITE_VERSION_ID}/stream`;
 
   const [value, setValue] = createSignal<string[]>([]);
   let queryRef!: HTMLInputElement;
