@@ -2582,7 +2582,7 @@
                         "text": "Check out our developer documentation "
                       },
                       {
-                        "url": "https://developer.voiceflow.com/",
+                        "url": "https://docs.voiceflow.com/reference/overview",
                         "type": "link",
                         "children": [
                           {
@@ -3665,7 +3665,7 @@
                     "fontWeight": "700"
                   },
                   {
-                    "url": "https://learn.voiceflow.com/hc/en-us/articles/12819438689293-Introduction-to-Project-Organization",
+                    "url": "https://docs.voiceflow.com/reference/interact_stream",
                     "type": "link",
                     "children": [
                       {
