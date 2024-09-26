@@ -1,22 +1,20 @@
 {
-  "name": "vite-template-solid",
+  "name": "streaming-wizard",
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "start": "yarn build && node dist/index.js",
+    "build": "tsc"
   },
   "license": "MIT",
   "devDependencies": {
-    "solid-devtools": "^0.29.2",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.11",
-    "vite-plugin-solid": "^2.8.2"
+    "@types/node": "^22.7.2",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "solid-js": "^1.8.11",
-    "sse.js": "^2.4.1"
-  }
+    "dotenv": "^16.4.5",
+    "eventsource-parser": "^2.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
 }
