@@ -5,11 +5,12 @@
 
 A quick example of using the Voiceflow runtime streaming API.
 
-<video src="https://github.com/user-attachments/assets/748ae2bb-4389-4a5d-bcbd-43fc371cf1c9"></video>
+![DEMO](https://github.com/user-attachments/assets/bef7a392-75c7-40f9-8e58-17929e87db09)
+
 
 Docs:
-https://docs.voiceflow.com/reference/stateinteractstream
-https://docs.voiceflow.com/reference/stream-completion-events-1
+* https://docs.voiceflow.com/reference/stateinteractstream
+* https://docs.voiceflow.com/reference/stream-completion-events-1
 
 ## Installation
 
