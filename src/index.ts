@@ -38,19 +38,16 @@ async function callApi(action: { type: string; payload: any }): Promise<void> {
         case "text":
           console.log(trace.payload.message);
           break;
+        case "completion":
+          if (trace.payload.state === "content") {
+            process.stdout.write(trace.payload.content);
+          } else if (trace.payload.state === "end") {
+            process.stdout.write("\n");
+          }
+          break;
         case "end":
           console.log("[conversation ended]");
           process.exit(0);
-        // completion events flag
-        case "completion-start":
-          process.stdout.write(trace.payload.completion ?? "");
-          break;
-        case "completion-continue":
-          process.stdout.write(trace.payload.completion ?? "");
-          break;
-        case "completion-end":
-          process.stdout.write(trace.payload.completion ?? "" + "\n");
-          break;
       }
     }
   });

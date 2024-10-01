@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "yarn build && node dist/index.js",
+    "start": "tsx src/index.ts",
     "build": "tsc"
   },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.7.2",
+    "tsx": "^4.19.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {
